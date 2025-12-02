@@ -40,7 +40,7 @@ export function Hero() {
 
         <div className="w-64 h-64 md:w-80 md:h-80 relative rounded-2xl overflow-hidden border-2 border-border shadow-2xl flex-shrink-0">
           <Image
-            src="/alex1.jpg"
+             src="/images/alex1.jpg"
             alt="Alexander Castellanos - Full Stack Developer"
             fill
             className="object-cover"
