@@ -16,6 +16,12 @@ El objetivo es mostrar mis proyectos, experiencia y habilidades de manera clara 
 - **Backend (otros proyectos):** ASP.NET Core, SQL Server
 - **Herramientas:** GitHub Actions, GitHub Pages, CI/CD automatizado
 
+
 ---
 
-## 📂 Estructura del proyecto
+## ⚙️ Instalación y ejecución local
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/Alex16leiva/portafolio.git
+   cd portafolio
