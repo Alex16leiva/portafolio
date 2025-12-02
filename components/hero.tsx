@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
-import Image from "next/image"
-import { useLanguage } from "@/contexts/language-context"
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
+import { useLanguage } from "@/contexts/language-context";
 
 export function Hero() {
-  const { t } = useLanguage()
+  const { t } = useLanguage();
 
   return (
     <section className="container mx-auto px-4 pt-32 pb-20">
@@ -40,7 +40,7 @@ export function Hero() {
 
         <div className="w-64 h-64 md:w-80 md:h-80 relative rounded-2xl overflow-hidden border-2 border-border shadow-2xl flex-shrink-0">
           <Image
-             src="/images/alex1.jpg"
+            src="/portafolio/images/alex1.jpg"
             alt="Alexander Castellanos - Full Stack Developer"
             fill
             className="object-cover"
@@ -49,5 +49,5 @@ export function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
