@@ -22,13 +22,13 @@ export function Projects() {
       titleKey: "reactTemplateTitle",
       descriptionKey: "reactTemplateDesc",
       tags: ["React", "Redux", "JavaScript", "Hooks"],
-      links: [{ labelKey: "viewCode", url: "https://github.com/Alex16leiva/react-template", icon: Github }],
+      links: [{ labelKey: "viewCode", url: "https://github.com/Alex16leiva/my-template-react", icon: Github }],
     },
     {
       titleKey: "aspnetTemplateTitle",
       descriptionKey: "aspnetTemplateDesc",
       tags: ["ASP.NET Core", "C#", "Clean Architecture", "Security"],
-      links: [{ labelKey: "viewCode", url: "https://github.com/Alex16leiva/aspnet-template", icon: Github }],
+      links: [{ labelKey: "viewCode", url: "https://github.com/Alex16leiva/TemplateBackEndNetCore", icon: Github }],
     },
   ]
 
