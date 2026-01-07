@@ -12,8 +12,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Alexander Castellanos – Full Stack Developer",
   description:
-    "Portfolio of Alexander Castellanos, Full Stack Developer specialized in ASP.NET Core, React, SQL Server, and Clean Architecture",
-  generator: "v0.app",
+    "Portfolio of Alexander Castellanos, Full Stack Developer specialized in ASP.NET Core, React, SQL Server, and Clean Architecture,
   icons: {
     icon: [
       {
@@ -29,6 +28,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
+    icon: "/favicon.png", 
     apple: "/apple-icon.png",
   },
 }
