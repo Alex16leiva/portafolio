@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/contexts/language-context"
-import Script from "next/script"   // 👈 Importamos Script
+import Script from "next/script"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -12,7 +12,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Alexander Castellanos – Full Stack Developer",
   description:
-    "Portfolio of Alexander Castellanos, Full Stack Developer specialized in ASP.NET Core, React, SQL Server, and Clean Architecture,
+    "Portfolio of Alexander Castellanos, Full Stack Developer specialized in ASP.NET Core, React, SQL Server, and Clean Architecture",
   icons: {
     icon: [
       {
@@ -27,8 +27,10 @@ export const metadata: Metadata = {
         url: "/icon.svg",
         type: "image/svg+xml",
       },
+      {
+        url: "/favicon.png",
+      },
     ],
-    icon: "/favicon.png", 
     apple: "/apple-icon.png",
   },
 }
