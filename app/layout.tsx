@@ -13,23 +13,15 @@ export const metadata: Metadata = {
   title: "Alexander Castellanos – Full Stack Developer",
   description:
     "Portfolio of Alexander Castellanos, Full Stack Developer specialized in ASP.NET Core, React, SQL Server, and Clean Architecture",
+  export const metadata: Metadata = {
+  title: "Alexander Castellanos – Full Stack Developer",
+  description: "Portfolio of Alexander Castellanos...",
   icons: {
     icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-      {
-        url: "/FaviconAC.png.png",
-      },
+      { url: "/favicon.png" }, // 👈 tu favicon principal
+      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
+      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/icon.svg", type: "image/svg+xml" },
     ],
     apple: "/apple-icon.png",
   },
